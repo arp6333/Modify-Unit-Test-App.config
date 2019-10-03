@@ -2,7 +2,7 @@
 
 In the past I have tried to include an app.config file but there are times where the file is ignored and I am not sure why. Here is my temporary work around:
 
-1. Insert the following method, [thank you to stackoverflow](https://stackoverflow.com/questions/4337201/net-nunit-test-assembly-getentryassembly-is-null), into your unit test class:
+1. Insert the following method, [thank you to stackoverflow](https://stackoverflow.com/a/21888521/11535502), into your unit test class:
 
   ```csharp
   /// <summary>
